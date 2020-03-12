@@ -1,4 +1,4 @@
-baseURL = "https://arpit-blog.netlify.com"
+baseURL = "https://arpit-blog.netlify.com/"
 languageCode = "en-us"
 title = "Arpit Jain"
 paginate = 3
