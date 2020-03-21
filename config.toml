@@ -1,4 +1,4 @@
-baseURL = "https://arpir.space/blog/"
+baseURL = "https://arpit.space/blog/"
 languageCode = "en-us"
 title = "Arpit Jain"
 paginate = 3
