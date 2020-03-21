@@ -39,8 +39,6 @@
 
     <ul class="nav-links">
       
-        <li><a href="/about/">About</a></li>
-      
     </ul>
   </div>
 </nav>
@@ -54,6 +52,7 @@
           
             <span class="meta-post">
   <i class="fa fa-calendar-alt"></i>&nbsp;Mar 12, 2020
+  
 </span>
 
           
@@ -82,6 +81,7 @@
   <div class="postmeta">
     <span class="meta-post">
   <i class="fa fa-calendar-alt"></i>&nbsp;Mar 12, 2020
+  
 </span>
 
   </div>
@@ -99,6 +99,7 @@
   <div class="postmeta">
     <span class="meta-post">
   <i class="fa fa-calendar-alt"></i>&nbsp;Mar 11, 2020
+  
 </span>
 
   </div>
@@ -161,4 +162,20 @@
   }
 </script>
 
+  <script>
+    document.addEventListener('scroll', function() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById('backtotopButton').style.opacity = "1";
+            document.getElementById('backtotopButton').style.transition = "0.5s";
+        } else {
+            document.getElementById('backtotopButton').style.opacity = "0";
+            document.getElementById('backtotopButton').style.transition = "0.5s";
+        }
+    });
+
+    function topFunction() {
+        document.body.scrollTop = 0;            
+        document.documentElement.scrollTop = 0; 
+    }
+</script>
 </html>

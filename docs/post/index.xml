@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Arpit Jain</title>
-    <link>https://arpit-blog.netlify.com/post/</link>
-    <description>Recent content in Posts on Arpit Jain</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 12 Mar 2020 13:53:22 +0000</lastBuildDate>
-    
-	<atom:link href="https://arpit-blog.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>My First</title>
-      <link>https://arpit-blog.netlify.com/post/2020-03-12-my-first/</link>
-      <pubDate>Thu, 12 Mar 2020 13:53:22 +0000</pubDate>
-      
-      <guid>https://arpit-blog.netlify.com/post/2020-03-12-my-first/</guid>
-      <description>Some more things</description>
-    </item>
-    
-    <item>
-      <title>The Practice Of Programming</title>
-      <link>https://arpit-blog.netlify.com/post/the-practice-of-programming/</link>
-      <pubDate>Wed, 11 Mar 2020 03:11:33 +0530</pubDate>
-      
-      <guid>https://arpit-blog.netlify.com/post/the-practice-of-programming/</guid>
-      <description>Hello I am arpit</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Posts on Arpit Jain</title>
+		<link>https://arpit-blog.netlify.com/post/</link>
+		<description>Recent content in Posts on Arpit Jain</description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en-us</language>
+		
+		<managingEditor>Page(/post) (Arpit Jain)</managingEditor>
+    	
+  		<lastBuildDate>Thu, 12 Mar 2020 13:53:22 +0000</lastBuildDate>
+		
+		<atom:link href="/post/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>My First</title>
+			<link>https://arpit-blog.netlify.com/post/2020-03-12-my-first/</link>
+			<pubDate>Thu, 12 Mar 2020 13:53:22 +0000</pubDate>
+			<guid>https://arpit-blog.netlify.com/post/2020-03-12-my-first/</guid>
+			<description>Some more things</description>
+		</item>
+		
+		<item>
+			<title>The Practice Of Programming</title>
+			<link>https://arpit-blog.netlify.com/post/the-practice-of-programming/</link>
+			<pubDate>Wed, 11 Mar 2020 03:11:33 +0530</pubDate>
+			<guid>https://arpit-blog.netlify.com/post/the-practice-of-programming/</guid>
+			<description>Hello I am arpit</description>
+		</item>
+		
+	</channel>
 </rss>
