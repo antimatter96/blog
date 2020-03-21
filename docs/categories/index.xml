@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Arpit Jain</title>
-		<link>https://arpit-blog.netlify.com/categories/</link>
+		<link>https://arpir.space/blog/categories/</link>
 		<description>Recent content in Categories on Arpit Jain</description>
 		<generator>Hugo -- gohugo.io</generator>
 		
@@ -9,21 +9,21 @@
 		
 		<managingEditor>Page(/categories) (Arpit Jain)</managingEditor>
     	
-		<atom:link href="/categories/" rel="self" type="application/rss+xml" />
+		<atom:link href="/blog/categories/" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>My First</title>
-			<link>https://arpit-blog.netlify.com/post/2020-03-12-my-first/</link>
+			<link>https://arpir.space/blog/post/2020-03-12-my-first/</link>
 			<pubDate>Thu, 12 Mar 2020 13:53:22 +0000</pubDate>
-			<guid>https://arpit-blog.netlify.com/post/2020-03-12-my-first/</guid>
+			<guid>https://arpir.space/blog/post/2020-03-12-my-first/</guid>
 			<description>Some more things</description>
 		</item>
 		
 		<item>
 			<title>The Practice Of Programming</title>
-			<link>https://arpit-blog.netlify.com/post/the-practice-of-programming/</link>
+			<link>https://arpir.space/blog/post/the-practice-of-programming/</link>
 			<pubDate>Wed, 11 Mar 2020 03:11:33 +0530</pubDate>
-			<guid>https://arpit-blog.netlify.com/post/the-practice-of-programming/</guid>
+			<guid>https://arpir.space/blog/post/the-practice-of-programming/</guid>
 			<description>Hello I am arpit</description>
 		</item>
 		
