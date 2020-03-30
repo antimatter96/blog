@@ -12,10 +12,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="alternate" type="application/rss+xml" href="https://arpit.space/blog/index.xml" title="Site Title">
 
-<link rel="stylesheet" href="https://arpit.space/blog/css/main.css" />
-<link rel="stylesheet" href="https://arpit.space/blog/css/syntax.css" />
+<link id="dark-mode" rel="stylesheet" href="https://arpit.space/blog/css/dark-sys.css" />
 <link disabled id="dark-mode-theme" rel="stylesheet" href="https://arpit.space/blog/css/dark.css" />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://arpit.space/blog/fontawesome/css/all.css" />
+<script src="https://arpit.space/blog/js/bundle.js"></script>
 <meta name="generator" content="Hugo 0.67.1" />
   </head>
   <body>
@@ -66,8 +66,52 @@
   <div class="container" role="main">
     <article class="article" class="blog-post">
       
-    <p>Hello
-I am arpit</p>
+    <p>I read the book <strong>The Practice of Programming</strong></p>
+<h3 id="basic-principles-of-good-software">Basic Principles of Good Software</h3>
+<ul>
+<li>Simplicity (keeping programs short and manageable)</li>
+<li>Clarity (making sure they are easy to understand, for people as well as machines)</li>
+<li>Generality (means they work well in a broad range of situations and adapt well as new situations arise)</li>
+</ul>
+<p>=&gt; Automation (which lets the machine do the work for us, freeing us from mundane tasks)</p>
+<h2 id="style">Style</h2>
+<h3 id="purpose-of-style">Purpose of Style</h3>
+<blockquote>
+<p>Make the code easy to read for yourself and others</p>
+</blockquote>
+<h3 id="rules">Rules</h3>
+<h4 id="regarding-naming">Regarding Naming</h4>
+<p>A variable or a function name labels an object, conveys information about its purpose.</p>
+<p>Why Bother ?</p>
+<blockquote>
+<p>Naming conventions make it easier to understand your own code. as well as code
+written by others. They also make it easier to invent new names as the code is being
+written. The longer the program, the more important is the choice of good. descriptive,
+systematic names</p>
+</blockquote>
+<p>tl;dr:</p>
+<ul>
+<li>informative</li>
+<li>Concise</li>
+<li>memorable,</li>
+<li>and pronounceable</li>
+</ul>
+<p>The broader the scope of a variable, the more information should be conveyed by its name.</p>
+<p>Since Global variables can crop up anywhere in a program, they need names long enough and
+descriptive enough to remind the reader of their meaning.
+Use descriptive names for globals, short names for locals.</p>
+<p><strong>Be consistent</strong>
+Give related things related names that show their relationship and highlight
+their difference. Eg in a class</p>
+<p><strong>Use active names for functions</strong>
+Function names should be based on active verbs, perhaps followed by nouns:
+Functions that return a boolean (true or false) value should be named so that the return
+value is unambiguous (check vs is)</p>
+<p><strong>Be accurate.</strong>
+It conveys information to the reader. A misleading name can result in mystifying bugs
+At the time the code is written, this might not cause trouble, but if the program is modified later, perhaps by a different programmer,
+the name is sure to confuse.</p>
+<p>Consistent adherence to a sensible convention.</p>
 
 
 
@@ -98,13 +142,17 @@ I am arpit</p>
   </div>
 </footer>
 
-  </body>
-  <script>
+    <script>
   var toggle = document.getElementById("dark-mode-toggle");
   var darkTheme = document.getElementById("dark-mode-theme");
 
+  var darkThemeSys = document.getElementById("dark-mode");
+
   
   var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
+  if (matchMedia('(prefers-color-scheme: dark)').matches) {
+    savedTheme = "dark"
+  }
   setTheme(savedTheme);
 
   toggle.addEventListener("click", () => {
@@ -120,12 +168,15 @@ I am arpit</p>
 
     if (mode === "dark") {
         darkTheme.disabled = false;
+        darkThemeSys.disabled = false;
         toggle.className = "fas fa-sun";
     } else if (mode === "light") {
         darkTheme.disabled = true;
+        darkThemeSys.disabled = true;
         toggle.className = "fas fa-moon";
     }
   }
 </script>
 
+  </body>
 </html>

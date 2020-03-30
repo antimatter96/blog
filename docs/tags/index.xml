@@ -18,14 +18,14 @@
 			<guid>https://arpit.space/blog/post/2020-03-12-my-first/</guid>
 			<description>Some more things</description>
 		</item>
-		
+      	
 		<item>
 			<title>The Practice Of Programming</title>
 			<link>https://arpit.space/blog/post/the-practice-of-programming/</link>
 			<pubDate>Wed, 11 Mar 2020 03:11:33 +0530</pubDate>
 			<guid>https://arpit.space/blog/post/the-practice-of-programming/</guid>
-			<description>Hello I am arpit</description>
+			<description>Something goes here</description>
 		</item>
-		
+      	
 	</channel>
 </rss>

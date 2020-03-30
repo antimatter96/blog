@@ -12,10 +12,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="alternate" type="application/rss+xml" href="https://arpit.space/blog/index.xml" title="Site Title">
 
-<link rel="stylesheet" href="https://arpit.space/blog/css/main.css" />
-<link rel="stylesheet" href="https://arpit.space/blog/css/syntax.css" />
+<link id="dark-mode" rel="stylesheet" href="https://arpit.space/blog/css/dark-sys.css" />
 <link disabled id="dark-mode-theme" rel="stylesheet" href="https://arpit.space/blog/css/dark.css" />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://arpit.space/blog/fontawesome/css/all.css" />
+<script src="https://arpit.space/blog/js/bundle.js"></script>
 <meta name="generator" content="Hugo 0.67.1" />
   </head>
   <body>
@@ -97,13 +97,17 @@
   </div>
 </footer>
 
-  </body>
-  <script>
+    <script>
   var toggle = document.getElementById("dark-mode-toggle");
   var darkTheme = document.getElementById("dark-mode-theme");
 
+  var darkThemeSys = document.getElementById("dark-mode");
+
   
   var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
+  if (matchMedia('(prefers-color-scheme: dark)').matches) {
+    savedTheme = "dark"
+  }
   setTheme(savedTheme);
 
   toggle.addEventListener("click", () => {
@@ -119,12 +123,15 @@
 
     if (mode === "dark") {
         darkTheme.disabled = false;
+        darkThemeSys.disabled = false;
         toggle.className = "fas fa-sun";
     } else if (mode === "light") {
         darkTheme.disabled = true;
+        darkThemeSys.disabled = true;
         toggle.className = "fas fa-moon";
     }
   }
 </script>
 
+  </body>
 </html>
