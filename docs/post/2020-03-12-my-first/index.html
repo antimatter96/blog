@@ -10,12 +10,13 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="alternate" type="application/rss+xml" href="https://arpit.space/blog/index.xml" title="Site Title">
+<link rel="alternate" type="application/rss+xml" href="https://arpit.space/blog/index.xml" title="Arpit Jain">
 
-<link id="dark-mode" rel="stylesheet" href="https://arpit.space/blog/css/dark-sys.css" />
-<link disabled id="dark-mode-theme" rel="stylesheet" href="https://arpit.space/blog/css/dark.css" />
-<link rel="stylesheet" href="https://arpit.space/blog/fontawesome/css/all.css" />
+<link id="dark-mode-theme" rel="stylesheet" href="https://arpit.space/blog/css/dark.css" />
+<link rel="stylesheet" href="https://arpit.space/blog/fontawesome/css/all.min.css" />
+
 <script src="https://arpit.space/blog/js/bundle.js"></script>
+<script src="https://arpit.space/blog/js/instantpage.js" type="module" defer></script>
 <meta name="generator" content="Hugo 0.67.1" />
   </head>
   <body>
@@ -73,6 +74,7 @@
       
     </article>
     
+    
   </div>
 
     <footer>
@@ -96,42 +98,6 @@
     </p>
   </div>
 </footer>
-
-    <script>
-  var toggle = document.getElementById("dark-mode-toggle");
-  var darkTheme = document.getElementById("dark-mode-theme");
-
-  var darkThemeSys = document.getElementById("dark-mode");
-
-  
-  var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
-  if (matchMedia('(prefers-color-scheme: dark)').matches) {
-    savedTheme = "dark"
-  }
-  setTheme(savedTheme);
-
-  toggle.addEventListener("click", () => {
-    if (toggle.className === "fas fa-moon") {
-        setTheme("dark");
-    } else if (toggle.className === "fas fa-sun") {
-        setTheme("light");
-    }
-  });
-
-  function setTheme(mode) {
-    localStorage.setItem("dark-mode-storage", mode);
-
-    if (mode === "dark") {
-        darkTheme.disabled = false;
-        darkThemeSys.disabled = false;
-        toggle.className = "fas fa-sun";
-    } else if (mode === "light") {
-        darkTheme.disabled = true;
-        darkThemeSys.disabled = true;
-        toggle.className = "fas fa-moon";
-    }
-  }
-</script>
 
   </body>
 </html>
