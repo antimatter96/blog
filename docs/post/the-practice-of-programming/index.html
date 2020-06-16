@@ -17,7 +17,7 @@
 
 <script src="https://arpit.space/blog/js/bundle.js"></script>
 <script src="https://arpit.space/blog/js/instantpage.js" type="module" defer></script>
-<meta name="generator" content="Hugo 0.67.1" />
+<meta name="generator" content="Hugo 0.72.0" />
   </head>
   <body>
     
@@ -113,20 +113,34 @@ At the time the code is written, this might not cause trouble, but if the progra
 the name is sure to confuse.</p>
 <p>Consistent adherence to a sensible convention.</p>
 <h4 id="expressions-and-statements">Expressions and Statements</h4>
+<ul>
+<li>
 <p>Write the clearest code that does the job</p>
+</li>
+<li>
 <p>Indent to show structure</p>
+</li>
+<li>
 <p>Use the natural form for expressions</p>
+</li>
+<li>
 <p>Conditional expressions that include negations are always hard to understand</p>
+</li>
+<li>
 <p>Parenthesize to resolve ambiguity</p>
+</li>
+<li>
 <p>Grouping the operands of higher-precedence operators helps the reader to see the structure more quickly.</p>
+</li>
+<li>
 <p>Break up complex expressions.</p>
+</li>
+</ul>
 <p>Be clear. Programmers&rsquo; endless creative energy is sometimes used to write the most
 concise code possible, or to find clever ways to achieve a result. Sometimes these
 skills are misapplied, though, since the goal is to write clear code, not clever code.</p>
-<p>The ? : operator is fine for short expressions where it can replace four lines of if-else</p>
-<p>Clarity is not the same as brevity. Often the clearer code will be shorter, as in the
-bit-shifting example, but it can also be longer, as in the conditional expression recast
-as an if-else</p>
+<p>The <code>? : </code> operator is fine for short expressions where it can replace four lines of if-else</p>
+<p>Clarity is not the same as brevity. Often the clearer code will be shorter, but it can also be longer</p>
 <p>The proper criterion is ease of understanding.</p>
 <p>Be careful with side effects.</p>
 <h4 id="consistency-and-idioms">Consistency and Idioms</h4>
@@ -158,8 +172,7 @@ default, although leaving it in with an error message may help to catch conditio
 <p>Magic numbers are the constants, array sizes, character positions, conversion factors,
 and other literal numeric values that appear in programs.</p>
 <h4 id="give-names-to-magic-numbers">Give names to magic numbers</h4>
-<p>A raw number in program source gives no indication of its importance or derivation, making the program harder to
-understand and modify</p>
+<p>A raw number in program source gives no indication of its importance or derivation, making the program harder to understand and modify</p>
 <p>By giving names to the principal numbers in any calculation, we can make the
 code easier to follow, and change</p>
 <h4 id="use-character-constants-not-integers">Use character constants, not integers**</h4>
@@ -185,8 +198,7 @@ or the data structures are intricate. In that case, a comment that points to a
 source of understanding can aid the reader. It may also be valuable to suggest why
 particular decisions were made</p>
 <hr>
-<p>ASK  Need for well</p>
-<p>well-written code is easier to read and to understand, almost
+<p>Weel-written code is easier to read and to understand, almost
 surely has fewer errors, and is likely to be smaller than code that has been carelessly
 tossed together and never polished.
 In the rush to get programs out the door to meet some deadline, it&rsquo;s easy to push style aside, to worry about it later.
@@ -196,6 +208,7 @@ about style as you write code originally, and if you take the time to revise and
 improve it, you will develop good habits. Once they become automatic, your subconscious
 will take care of many of the details for you, and even the code you produce
 under pressure will be better.</p>
+<hr>
 <h2 id="algorithms--data-structures">Algorithms &amp; Data Structures</h2>
 <p>There are several steps to choosing an algorithm</p>
 <p>First, assess potential algorithms and data structures</p>
@@ -206,6 +219,7 @@ could grow, eliminate designs that will not scale up to large inputs</p>
 Failing that, write or borrow a short, simple, easy to understand implementation</p>
 <p>Try it
 If measurements prove it to be too slow, only then should you upgrade to a more advanced technique.</p>
+<hr>
 <h2 id="design--implementation">Design &amp; Implementation</h2>
 <p>As a rule, try to handle irregularities and exceptions and special cases in data.
 Code is harder to get right so the control flow should be as simple and regular as possible</p>
@@ -257,6 +271,7 @@ input, is important both for protecting users against themselves and also as a s
 mechanism.</p>
 <p>The text of error messages, prompts, and dialog boxes should state the form of
 valid input. Don&rsquo;t say that a parameter is too large; report the valid range of values.</p>
+<hr>
 <h2 id="debugging">Debugging</h2>
 <h3 id="key-takeaways-1">Key Takeaways</h3>
 <p>The reality is that there will always be errors that we find by testing and eliminate by debugging.</p>
@@ -312,6 +327,7 @@ If they&rsquo;re not expensive, it might be wise to leave them always enabled.</
 debugging. Scatter plots display misplaced values more effectively
 than columns of numbers. A histogram of data reveals anomalies in</p>
 <p>Keep records</p>
+<hr>
 <h2 id="testing">Testing</h2>
 <p>Test as You Write the Code
 The earlier a problem is found, the better.</p>
@@ -330,6 +346,7 @@ help you identify old problems and fix new ones</p>
 <p>Know what output to expect</p>
 <p>Test Automation</p>
 <p>Automate regression testing.</p>
+<hr>
 <h2 id="performance">Performance</h2>
 
 
