@@ -3,6 +3,7 @@ title: "The Practice Of Programming"
 date: 2020-03-11T03:11:33+05:30
 draft: false
 summary: "Summary of The Practice Of Programming by Rob Pike"
+truncated: true
 backtotop:  true
 ---
 
@@ -64,29 +65,27 @@ Consistent adherence to a sensible convention.
 
 #### Expressions and Statements
 
-Write the clearest code that does the job
+- Write the clearest code that does the job
 
-Indent to show structure
+- Indent to show structure
 
-Use the natural form for expressions
+- Use the natural form for expressions
 
-Conditional expressions that include negations are always hard to understand
+- Conditional expressions that include negations are always hard to understand
 
-Parenthesize to resolve ambiguity
+- Parenthesize to resolve ambiguity
 
-Grouping the operands of higher-precedence operators helps the reader to see the structure more quickly.
+- Grouping the operands of higher-precedence operators helps the reader to see the structure more quickly.
 
-Break up complex expressions.
+- Break up complex expressions.
 
 Be clear. Programmers' endless creative energy is sometimes used to write the most
 concise code possible, or to find clever ways to achieve a result. Sometimes these
 skills are misapplied, though, since the goal is to write clear code, not clever code.
 
-The ? : operator is fine for short expressions where it can replace four lines of if-else
+The `? : ` operator is fine for short expressions where it can replace four lines of if-else
 
-Clarity is not the same as brevity. Often the clearer code will be shorter, as in the
-bit-shifting example, but it can also be longer, as in the conditional expression recast
-as an if-else
+Clarity is not the same as brevity. Often the clearer code will be shorter, but it can also be longer
 
 The proper criterion is ease of understanding.
 
@@ -140,8 +139,7 @@ and other literal numeric values that appear in programs.
 
 #### Give names to magic numbers
 
-A raw number in program source gives no indication of its importance or derivation, making the program harder to
-understand and modify
+A raw number in program source gives no indication of its importance or derivation, making the program harder to understand and modify
 
 By giving names to the principal numbers in any calculation, we can make the
 code easier to follow, and change
@@ -180,9 +178,7 @@ particular decisions were made
 
 ------------------------
 
-ASK  Need for well
-
-well-written code is easier to read and to understand, almost
+Weel-written code is easier to read and to understand, almost
 surely has fewer errors, and is likely to be smaller than code that has been carelessly
 tossed together and never polished.
 In the rush to get programs out the door to meet some deadline, it's easy to push style aside, to worry about it later.
@@ -193,6 +189,8 @@ about style as you write code originally, and if you take the time to revise and
 improve it, you will develop good habits. Once they become automatic, your subconscious
 will take care of many of the details for you, and even the code you produce
 under pressure will be better.
+
+------------------------
 
 ## Algorithms & Data Structures
 
@@ -210,6 +208,8 @@ Failing that, write or borrow a short, simple, easy to understand implementation
 
 Try it
 If measurements prove it to be too slow, only then should you upgrade to a more advanced technique.
+
+------------------------
 
 ## Design & Implementation
 
@@ -283,6 +283,8 @@ mechanism.
 
 The text of error messages, prompts, and dialog boxes should state the form of
 valid input. Don't say that a parameter is too large; report the valid range of values.
+
+------------------------
 
 ## Debugging
 
@@ -363,6 +365,8 @@ than columns of numbers. A histogram of data reveals anomalies in
 
 Keep records
 
+------------------------
+
 ## Testing
 
 Test as You Write the Code
@@ -393,5 +397,7 @@ Know what output to expect
 Test Automation
 
 Automate regression testing.
+
+------------------------
 
 ## Performance
