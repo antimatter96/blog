@@ -1,21 +1,20 @@
 /* noto-sans-jp-regular - japanese_latin */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: 'JetBrainsMono';
   font-style: normal;
   font-weight: 400;
-  src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular'),
-       url('../fonts/noto-sans-jp-v25-japanese_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/noto-sans-jp-v25-japanese_latin-regular.woff') format('woff'); /* Modern Browsers */
+  src: local('JetBrainsMono'), local('JetBrainsMono-Regular'),
+       url('../fonts/JetBrainsMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/JetBrainsMono-Regular.woff') format('woff'); /* Modern Browsers */
 }
 
-/* roboto-regular - latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'JetBrainsMono-Bold';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'),
-       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Modern Browsers */
+  src: local('JetBrainsMono'), local('JetBrainsMono-Bold'),
+       url('../fonts/JetBrainsMono-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/JetBrainsMono-Bold.woff') format('woff'); /* Modern Browsers */
 }
 
 html {
@@ -25,7 +24,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'JetBrainsMono', monospace;
   font-size: 16px;
   color: #42464c;
   background: 0 0;
@@ -39,7 +38,7 @@ a {
 }
 
 .error-text {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono', monospace;
   text-align: center;
 }
 
@@ -121,7 +120,7 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono-Bold', monospace;
   font-weight: 800;
   color: #111111;
 }
@@ -196,7 +195,7 @@ p + p {
 }
 
 .blog-tags {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono', monospace;
   color: #999999;
   font-size: 15px;
   margin: 30px 0;
@@ -217,7 +216,7 @@ h4.term-name > span.badge {
 }
 
 div.panel-body {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono', monospace;
   font-weight: 800;
   border-radius: 0;
   border: none;
@@ -230,7 +229,7 @@ div.panel-body {
 }
 
 .post-read-more {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono', monospace;
   font-weight: 800;
   float: right;
   position: relative;
@@ -405,7 +404,7 @@ input.searchBox {
 }
 
 .searchResultTitle {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono', monospace;
   font-weight: bold;
   font-size: 24px;
   margin: 5px 0;
@@ -436,7 +435,7 @@ mark {
 
 .pager li a {
   box-sizing: border-box;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono', monospace;
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
@@ -470,11 +469,11 @@ footer {
   text-align: center;
   margin-top: auto;
   font-size: 14px;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono', monospace;
 }
 
 footer .copyright {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'JetBrainsMono', monospace;
   text-align: center;
   margin-bottom: 0;
 }

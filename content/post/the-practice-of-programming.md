@@ -95,14 +95,14 @@ Be careful with side effects.
 
 Consistency leads to better programs.
 
-any variation suggests a genuine difference, one worth noting.
+Any variation suggests a genuine difference, one worth noting.
 
 Use a consistent indentation and brace style
 
 specific style is much less important than its consistent application. Pick one style,
 preferably ours, use it consistently, and don't waste time arguing.
 
-IF you work on a program you didn't write, preserve the style you find
+If you work on a program you didn't write, preserve the style you find
 there. When you make a change, don't use your own style even though you prefer it.
 The program's consistency is more important than your own, because it makes life
 easier for those who follow.
@@ -130,7 +130,7 @@ The increase in size is more than offset by the increase in clarity
 
 #### Function Macros
 
-->>
+->> Can have side-effectss
 
 #### Magic Numbers
 
