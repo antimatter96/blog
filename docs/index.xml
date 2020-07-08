@@ -14,19 +14,11 @@
 		<atom:link href="https://arpit.space/blog/" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>The Practice Of Programming</title>
+			<title>The Practice Of Programming : Part 1 - Style</title>
 			<link>https://arpit.space/blog/post/the-practice-of-programming/</link>
 			<pubDate>Wed, 11 Mar 2020 03:11:33 +0530</pubDate>
 			<guid>https://arpit.space/blog/post/the-practice-of-programming/</guid>
-			<description>Summary of The Practice Of Programming by Rob Pike</description>
-		</item>
-      	
-		<item>
-			<title>Hello World</title>
-			<link>https://arpit.space/blog/post/2020-03-12-my-first/</link>
-			<pubDate>Tue, 10 Mar 2020 13:53:22 +0000</pubDate>
-			<guid>https://arpit.space/blog/post/2020-03-12-my-first/</guid>
-			<description>I am Arpit Jain</description>
+			<description>Summary of The Practice Of Programming by Rob Pike. Part 1 : Style</description>
 		</item>
       	
 	</channel>
