@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://arpit.space/blog/about/</loc>
-    <lastmod>2020-03-11T03:11:33+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://arpit.space/blog/</loc>
-    <lastmod>2020-03-11T03:11:33+05:30</lastmod>
+    <lastmod>2020-07-09T03:11:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://arpit.space/blog/post/</loc>
-    <lastmod>2020-03-11T03:11:33+05:30</lastmod>
+    <lastmod>2020-07-09T03:11:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://arpit.space/blog/post/the-practice-of-programming/</loc>
+    <loc>https://arpit.space/blog/post/the-pracitce-of-programming-2/</loc>
+    <lastmod>2020-07-09T03:11:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arpit.space/blog/post/the-practice-of-programming-1/</loc>
+    <lastmod>2020-07-01T03:11:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arpit.space/blog/about/</loc>
     <lastmod>2020-03-11T03:11:33+05:30</lastmod>
   </url>
   

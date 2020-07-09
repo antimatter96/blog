@@ -1,7 +1,7 @@
 ---
-title: "The Practice Of Programming"
+title: "The Practice Of Programming - 2"
 date: 2020-03-11T03:11:33+05:30
-draft: false
+draft: true
 summary: "Summary of The Practice Of Programming by Rob Pike"
 truncated: true
 backtotop:  true
