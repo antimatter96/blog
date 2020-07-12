@@ -90,8 +90,14 @@ and managing shared copies of information.</p>
 <p>Error handling: who detects errors. who reports them, and how? When an error
 is detected, what recovery is attempted?</p>
 <h3 id="principles">Principles</h3>
-<p>simple, general. regular,
-predictable, robust-and it must adapt gracefully as its users and its implementation change.</p>
+<ul>
+<li>Simple</li>
+<li>General</li>
+<li>Regular</li>
+<li>Predictable</li>
+<li>Robust</li>
+<li>Must adapt gracefully as its users and its implementation change.</li>
+</ul>
 <h3 id="key-takeaways">Key Takeaways</h3>
 <p>Hide implementation details.
 Avoid global variables;
@@ -118,8 +124,9 @@ expected return values eg EOF, 500, 200</p>
 input, is important both for protecting users against themselves and also as a security
 mechanism.</p>
 <p>The text of error messages, prompts, and dialog boxes should state the form of
-valid input. Don&rsquo;t say that a parameter is too large; report the valid range of values.</p>
-<hr>
+valid input.
+Don&rsquo;t say that a parameter is too large; report the valid range of values.</p>
+<p>&mdash;;</p>
 
 
 

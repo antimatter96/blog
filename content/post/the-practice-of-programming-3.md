@@ -40,8 +40,12 @@ is detected, what recovery is attempted?
 
 ### Principles
 
-simple, general. regular,
-predictable, robust-and it must adapt gracefully as its users and its implementation change.
+- Simple
+- General
+- Regular
+- Predictable
+- Robust
+- Must adapt gracefully as its users and its implementation change.
 
 ### Key Takeaways
 
@@ -79,6 +83,7 @@ input, is important both for protecting users against themselves and also as a s
 mechanism.
 
 The text of error messages, prompts, and dialog boxes should state the form of
-valid input. Don't say that a parameter is too large; report the valid range of values.
+valid input.
+Don't say that a parameter is too large; report the valid range of values.
 
-------------------------
+---;

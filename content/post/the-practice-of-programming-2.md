@@ -27,4 +27,4 @@ Try it.
 
 If measurements prove it to be too slow, only then should you upgrade to a more advanced technique.
 
-------------------------
+---;

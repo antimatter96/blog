@@ -8,19 +8,24 @@ backtotop:  true
 ---
 ---
 
-
 ## Debugging
 
 ### Key Takeaways
 
 The reality is that there will always be errors that we find by testing and eliminate by debugging.
 
- Every bug you find can teach you how to prevent a similar bug from happening again or to recognize it if it does.
+Every bug you find can teach you how to prevent a similar bug from happening again or to recognize it if it does.
 
 Techniques that help reduce debugging time
-include good design, good style, boundary condition tests, assertions and sanity
-checks in the code, defensive programming, well-designed interfaces, limited global
-data, and checking tools
+- include good design
+- good style
+- boundary condition tests
+- assertions and sanity
+- checks in the code
+- defensive programming
+- well-designed interfaces
+- limited global data
+- checking tools
 
 On the opposite side of the coin, some features are prone to error, like
 goto statements, global variables, unrestricted pointers, and automatic type conversions.
@@ -73,7 +78,7 @@ Make the bug reproducible
 
 Study the numerology of failures
 
-Display output to localize your search. If
+Display output to localize your search
 
 Write self-checking code
 
@@ -88,4 +93,4 @@ than columns of numbers. A histogram of data reveals anomalies in
 
 Keep records
 
-------------------------
+---;
