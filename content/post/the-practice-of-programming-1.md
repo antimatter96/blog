@@ -2,7 +2,7 @@
 title: "The Practice Of Programming : Part 1 - Style"
 date: 2020-07-01T03:11:33+05:30
 draft: false
-summary: "Summary of The Practice Of Programming by Rob Pike. Part 1 : Style"
+summary: "Summary of The Practice Of Programming. Part 1 : Style"
 truncated: false
 backtotop:  true
 ---

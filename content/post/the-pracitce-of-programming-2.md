@@ -2,7 +2,7 @@
 title: "The PoP : Part 2 - Algorithms & Data Structures"
 date: 2020-07-09T03:11:33+05:30
 draft: false
-summary: "Summary of The Practice Of Programming by Rob Pike. Part 2 : Algorithms & Data Structures"
+summary: "Summary of The Practice Of Programming. Part 2 : Algorithms & Data Structures"
 truncated: true
 backtotop:  true
 ---
