@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+<title>The PoP : Part 3 - Design &amp; Implementation and Interfaces</title>
+
+
+  
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" href="https://arpit.space/blog/index.xml" title="Arpit Jain">
+
+<link id="dark-mode-theme" rel="stylesheet" href="https://arpit.space/blog/css/dark.css" />
+<link rel="stylesheet" href="https://arpit.space/blog/fontawesome/css/all.min.css" />
+
+<script src="https://arpit.space/blog/js/bundle.js"></script>
+<script src="https://arpit.space/blog/js/instantpage.js" type="module" defer></script>
+<meta name="generator" content="Hugo 0.73.0" />
+  </head>
+  <body>
+    
+  
+
+
+
+
+  <header>
+    <nav class="navbar">
+  <div class="nav">
+    
+      <a href="https://arpit.space/blog/" class="nav-logo">
+      <img src="https://arpit.space/blog/images/icon.png"
+           width="50"
+           height="50"
+           alt="Logo">
+      </a>
+    
+
+    <ul class="nav-links">
+      
+    </ul>
+  </div>
+</nav>
+
+    <div class="intro-header">
+      <div class="container">
+        <div class="post-heading">
+          
+            <h1>The PoP : Part 3 - Design &amp; Implementation and Interfaces</h1>
+          
+          
+            <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>&nbsp;Jul 10, 2020
+  
+</span>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      
+    <hr>
+<h2 id="design--implementation">Design &amp; Implementation</h2>
+<p>As a rule, try to handle irregularities and exceptions and special cases in data.
+Code is harder to get right so the control flow should be as simple and regular as possible</p>
+<p>It&rsquo;s hard to design a program completely and then build it
+constructing real programs involves iteration and experimentation
+The act of building forces one to clarify decisions that had previously been glossed over.
+As much as possible, start with something simple and evolve it as experience dictates</p>
+<h2 id="interfaces">Interfaces</h2>
+<p>Among the issues to be worked out in a design of an interface are</p>
+<p>Interfaces: what services and access are provided? The interface is in effect a
+contract between supplier and customer. The desire is to provide services that
+are uniform and convenient, with enough functionality to be easy to use but not
+so much as to become unwieldy.</p>
+<p>Information hiding: what information is visible and what is private? An interface
+must provide straightforward access to the components while hiding details
+of the implementation so they can be changed without affecting users.</p>
+<p>Resource management: who is responsible for managing memory and other
+limited resources? Here, the main problems are allocating and freeing storage.
+and managing shared copies of information.</p>
+<p>Error handling: who detects errors. who reports them, and how? When an error
+is detected, what recovery is attempted?</p>
+<h3 id="principles">Principles</h3>
+<p>simple, general. regular,
+predictable, robust-and it must adapt gracefully as its users and its implementation change.</p>
+<h3 id="key-takeaways">Key Takeaways</h3>
+<p>Hide implementation details.
+Avoid global variables;
+wherever possible it is better to pass references to all data
+through function arguments</p>
+<p>Choose a small orthogonal set of primitives</p>
+<p>Narrow interfaces are to be preferred to wide ones, at least until one has strong
+evidence that more functions are needed. Do one thing, and do it well. Don&rsquo;t add to
+an interface just because it&rsquo;s possible to do so, and don&rsquo;t fix the interface when it&rsquo;s the
+implementation that&rsquo;s broken</p>
+<p>Do the same thing the same way everywhere</p>
+<p>Resource Management
+Write code that is reentrant, which means
+that it works regardless of the number of simultaneous executions</p>
+<p>ERROR DETECTION</p>
+<p>Detect errors at a low level, handle them at a high level.
+As a general principle,
+errors should be detected at as low a level as possible, but handled at a high level. In
+most cases, the caller should determine how to handle an error, not the callee.</p>
+<p>Use exceptions only for exceptional situations.
+Exceptions should not be used for handling
+expected return values eg EOF, 500, 200</p>
+<p>Defensive programming, that is, making sure that a program is invulnerable to bad
+input, is important both for protecting users against themselves and also as a security
+mechanism.</p>
+<p>The text of error messages, prompts, and dialog boxes should state the form of
+valid input. Don&rsquo;t say that a parameter is too large; report the valid range of values.</p>
+<hr>
+
+
+
+      
+    </article>
+    
+      <script>
+    document.addEventListener('scroll', function() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById('backtotopButton').style.opacity = "1";
+            document.getElementById('backtotopButton').style.transition = "0.5s";
+        } else {
+            document.getElementById('backtotopButton').style.opacity = "0";
+            document.getElementById('backtotopButton').style.transition = "0.5s";
+        }
+    });
+
+    function topFunction() {
+        document.body.scrollTop = 0;            
+        document.documentElement.scrollTop = 0; 
+    }
+</script>
+      <button onclick="topFunction()" id="backtotopButton">
+        <i class="fa fa-angle-up"></i>
+      </button>
+    
+    
+  </div>
+
+    <footer>
+  <div class="container">
+    <p class="credits copyright">
+      <a href="https://arpit.space/blog/about">Arpit Jain</a>
+      &nbsp;&copy;
+      2020
+
+      
+        &nbsp;/&nbsp;
+        <a href="https://arpit.space/blog/">Arpit Jain</a>
+      
+
+      &nbsp;&ndash;&nbsp;
+      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;Theme <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
+      </p>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
