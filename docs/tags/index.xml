@@ -2,14 +2,14 @@
 	<channel>
 		<title>Tags on Arpit Jain</title>
 		<link>https://arpit.space/blog/tags/</link>
-		<description>Recent content in Tags on Arpit Jain</description>
+		<description>Recent content in Tags </description>
 		<generator>Hugo -- gohugo.io</generator>
 		
   		<language>en-us</language>
 		
 		<managingEditor>Page(/tags) (Arpit Jain)</managingEditor>
     	
-		<atom:link href="https://arpit.space/blog/tags/" rel="self" type="application/rss+xml" />
+		<atom:link href="/blog/tags/" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>The PoP : Part 5 - Testing</title>

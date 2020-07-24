@@ -2,7 +2,7 @@
 	<channel>
 		<title>Posts on Arpit Jain</title>
 		<link>https://arpit.space/blog/post/</link>
-		<description>Recent content in Posts on Arpit Jain</description>
+		<description>Recent content in Posts </description>
 		<generator>Hugo -- gohugo.io</generator>
 		
   		<language>en-us</language>
@@ -11,7 +11,7 @@
     	
   		<lastBuildDate>Sun, 12 Jul 2020 03:11:33 +0530</lastBuildDate>
 		
-		<atom:link href="https://arpit.space/blog/post/" rel="self" type="application/rss+xml" />
+		<atom:link href="/blog/post/" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>The PoP : Part 5 - Testing</title>
