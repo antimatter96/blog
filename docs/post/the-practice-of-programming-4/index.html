@@ -1,187 +1,36 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-<title>The PoP : Part 4 - Debugging</title>
-
-
-  
-
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="alternate" type="application/rss+xml" href="https://arpit.space/blog/index.xml" title="Arpit Jain">
-
-<link id="dark-mode-theme" rel="stylesheet" href="https://arpit.space/blog/css/dark.css" />
-<link rel="stylesheet" href="https://arpit.space/blog/fontawesome/css/all.min.css" />
-
-<script src="https://arpit.space/blog/js/bundle.js"></script>
-<script src="https://arpit.space/blog/js/instantpage.js" type="module" defer></script>
-<meta name="generator" content="Hugo 0.73.0" />
-  </head>
-  <body>
-    
-  
-
-
-
-
-  <header>
-    <nav class="navbar">
-  <div class="nav">
-    
-      <a href="https://arpit.space/blog/" class="nav-logo">
-      <img src="https://arpit.space/blog/images/icon.png"
-           width="50"
-           height="50"
-           alt="Logo">
-      </a>
-    
-
-    <ul class="nav-links">
-      
-    </ul>
-  </div>
-</nav>
-
-    <div class="intro-header">
-      <div class="container">
-        <div class="post-heading">
-          
-            <h1>The PoP : Part 4 - Debugging</h1>
-          
-          
-            <span class="meta-post">
-  <i class="fa fa-calendar-alt"></i>&nbsp;Jul 11, 2020
-  
-</span>
-
-          
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-    
-  <div class="container" role="main">
-    <article class="article" class="blog-post">
-      
-    <hr>
-<h2 id="debugging">Debugging</h2>
-<h3 id="key-takeaways">Key Takeaways</h3>
-<p>The reality is that there will always be errors that we find by testing and eliminate by debugging.</p>
-<p>Every bug you find can teach you how to prevent a similar bug from happening again or to recognize it if it does.</p>
-<p>Techniques that help reduce debugging time</p>
-<ul>
-<li>include good design</li>
-<li>good style</li>
-<li>boundary condition tests</li>
-<li>assertions and sanity</li>
-<li>checks in the code</li>
-<li>defensive programming</li>
-<li>well-designed interfaces</li>
-<li>limited global data</li>
-<li>checking tools</li>
-</ul>
-<p>On the opposite side of the coin, some features are prone to error, like
-goto statements, global variables, unrestricted pointers, and automatic type conversions.</p>
-<p>Clicking over statements takes longer than scanning the output of
+<!doctype html><html lang=en-us><head><meta charset=utf-8><title>The PoP : Part 4 - Debugging</title><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=alternate type=application/rss+xml href=https://arpit.space/blog/index.xml title="Arpit Jain"><link id=dark-mode-theme rel=stylesheet href=https://arpit.space/blog/css/dark.css><link rel=stylesheet href=https://arpit.space/blog/fontawesome/css/all.min.css><script src=https://arpit.space/blog/js/bundle.js></script><script src=https://arpit.space/blog/js/instantpage.js type=module defer></script><meta name=generator content="Hugo 0.73.0"></head><body><header><nav class=navbar><div class=nav><a href=https://arpit.space/blog/ class=nav-logo><img src=https://arpit.space/blog/images/icon.png width=50 height=50 alt=Logo></a><ul class=nav-links></ul></div></nav><div class=intro-header><div class=container><div class=post-heading><h1>The PoP : Part 4 - Debugging</h1><span class=meta-post><i class="fa fa-calendar-alt"></i>&nbsp;Jul 11, 2020</span></div></div></div></header><div class=container role=main><article class=article class=blog-post><hr><h2 id=debugging>Debugging</h2><h3 id=key-takeaways>Key Takeaways</h3><p>The reality is that there will always be errors that we find by testing and eliminate by debugging.</p><p>Every bug you find can teach you how to prevent a similar bug from happening again or to recognize it if it does.</p><p>Techniques that help reduce debugging time</p><ul><li>include good design</li><li>good style</li><li>boundary condition tests</li><li>assertions and sanity</li><li>checks in the code</li><li>defensive programming</li><li>well-designed interfaces</li><li>limited global data</li><li>checking tools</li></ul><p>On the opposite side of the coin, some features are prone to error, like
+goto statements, global variables, unrestricted pointers, and automatic type conversions.</p><p>Clicking over statements takes longer than scanning the output of
 judiciously-placed displays. It takes less time to decide where to put print statements
 than to single-step to the critical section of code, even assuming we know where that
-is.</p>
-<p>More important, debugging statements stay with the program; debugger sessions
-are transient.</p>
-<p>Blind probing with a debugger is not likely to be productive. It is more helpful to
+is.</p><p>More important, debugging statements stay with the program; debugger sessions
+are transient.</p><p>Blind probing with a debugger is not likely to be productive. It is more helpful to
 use the debugger to discover the state of the program when it fails, then think about
-how the failure could have happened.</p>
-<p>Examine the evidence in the erroneous output and try to infer how it could have been
+how the failure could have happened.</p><p>Examine the evidence in the erroneous output and try to infer how it could have been
 produced. Look at any debugging output before the crash; if possible get a stack trace
 from a debugger. Now you know something of what happened, and where. Pause to
 reflect. How could that happen? Reason back from the state of the crashed program
-to determine what could have caused this.</p>
-<p>Debugging involves backwards reasoning, like solving murder mysteries. Something
+to determine what could have caused this.</p><p>Debugging involves backwards reasoning, like solving murder mysteries. Something
 impossible occurred, and the only solid information is that it really did occur.
 So we must think backwards from the result to discover the reasons. Once we have a
 full explanation, we&rsquo;ll know what to fix and, along the way, likely discover a few
-other things we hadn&rsquo;t expected.</p>
-<p>Look for familiar patterns</p>
-<p>Examine the most recent change</p>
-<p>Don&rsquo;t make the same mistake twice
-Look for  identical errors
+other things we hadn&rsquo;t expected.</p><p>Look for familiar patterns</p><p>Examine the most recent change</p><p>Don&rsquo;t make the same mistake twice
+Look for identical errors
 Easy code can have bugs if its familiarity causes us to let down our guard. Even
 when code is so simple you could write it in your sleep, don&rsquo;t fall asleep while writing
-it.</p>
-<p>Debug it now, not later.</p>
-<p>Read before typing.</p>
-<p>Take a break for a while; sometimes what you see in the source code is what you
+it.</p><p>Debug it now, not later.</p><p>Read before typing.</p><p>Take a break for a while; sometimes what you see in the source code is what you
 meant rather than what you wrote, and an interval away from it can soften your misconceptions
 and help the code speak for itself when you return.
 Resist the urge to start typing; thinking is a worthwhile alternative.
-Explain your code to someone else. Another effective technique is to explain</p>
-<p>Make the bug reproducible</p>
-<p>Study the numerology of failures</p>
-<p>Display output to localize your search</p>
-<p>Write self-checking code</p>
-<p>After a bug is fixed, don&rsquo;t throw check away. Leave it in the source, commented
+Explain your code to someone else. Another effective technique is to explain</p><p>Make the bug reproducible</p><p>Study the numerology of failures</p><p>Display output to localize your search</p><p>Write self-checking code</p><p>After a bug is fixed, don&rsquo;t throw check away. Leave it in the source, commented
 out or controlled by a debugging option, so that it can be turned on again when the
 next difficult problem appears.
-If they&rsquo;re not expensive, it might be wise to leave them always enabled.</p>
-<p>Draw a picture. Sometimes pictures are more effective than text for testing and
+If they&rsquo;re not expensive, it might be wise to leave them always enabled.</p><p>Draw a picture. Sometimes pictures are more effective than text for testing and
 debugging. Scatter plots display misplaced values more effectively
-than columns of numbers. A histogram of data reveals anomalies in</p>
-<p>Keep records</p>
-<p>&mdash;;</p>
-
-
-
-      
-    </article>
-    
-      <script>
-    document.addEventListener('scroll', function() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            document.getElementById('backtotopButton').style.opacity = "1";
-            document.getElementById('backtotopButton').style.transition = "0.5s";
-        } else {
-            document.getElementById('backtotopButton').style.opacity = "0";
-            document.getElementById('backtotopButton').style.transition = "0.5s";
-        }
-    });
-
-    function topFunction() {
-        document.body.scrollTop = 0;            
-        document.documentElement.scrollTop = 0; 
-    }
-</script>
-      <button onclick="topFunction()" id="backtotopButton">
-        <i class="fa fa-angle-up"></i>
-      </button>
-    
-    
-  </div>
-
-    <footer>
-  <div class="container">
-    <p class="credits copyright">
-      <a href="https://arpit.space/blog/about">Arpit Jain</a>
-      &nbsp;&copy;
-      2020
-
-      
-        &nbsp;/&nbsp;
-        <a href="https://arpit.space/blog/">Arpit Jain</a>
-      
-
-      &nbsp;&ndash;&nbsp;
-      <i class="fas fa-moon" id="dark-mode-toggle"></i>
-
-      <p class="credits theme-by">
-        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;Theme <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
-      </p>
-    </p>
-  </div>
-</footer>
-
-  </body>
-</html>
+than columns of numbers. A histogram of data reveals anomalies in</p><p>Keep records</p><p>&mdash;;</p></article><script>document.addEventListener('scroll',function(){if(document.body.scrollTop>50||document.documentElement.scrollTop>50){document.getElementById('backtotopButton').style.opacity="1";document.getElementById('backtotopButton').style.transition="0.5s";}else{document.getElementById('backtotopButton').style.opacity="0";document.getElementById('backtotopButton').style.transition="0.5s";}});function topFunction(){document.body.scrollTop=0;document.documentElement.scrollTop=0;}</script><button onclick=topFunction() id=backtotopButton>
+<i class="fa fa-angle-up"></i></button></div><footer><div class=container><p class="credits copyright"><a href=https://arpit.space/blog/about>Arpit Jain</a>
+&nbsp;&copy;
+2020
+&nbsp;/&nbsp;
+<a href=https://arpit.space/blog/>Arpit Jain</a>
+&nbsp;&ndash;&nbsp;
+<i class="fas fa-moon" id=dark-mode-toggle></i><p class="credits theme-by">Powered By <a href=https://gohugo.io>Hugo</a>&nbsp;Theme <a href=https://github.com/matsuyoshi30/harbor>Harbor</a></p></p></div></footer></body></html>
