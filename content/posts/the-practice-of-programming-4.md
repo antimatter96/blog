@@ -5,6 +5,10 @@ draft: false
 summary: "Summary of The Practice Of Programming. Part 4 : Debugging"
 truncated: true
 backtotop:  true
+description: "Summary of The Practice Of Programming. Part 4 : Debugging"
+weight: 1
+aliases: []
+categories: ["pop"]
 ---
 ---
 

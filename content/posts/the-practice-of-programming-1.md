@@ -5,10 +5,15 @@ draft: false
 summary: "Summary of The Practice Of Programming. Part 1 : Style"
 truncated: false
 backtotop:  true
+description: "Summary of The Practice Of Programming. Part 1 : Style"
+weight: 1
+aliases: []
+categories: ["pop"]
+
 ---
 ---
 
-I read the book **The Practice of Programming**
+I recently read the book **The Practice of Programming**
 
 ### Basic Principles of Good Software
 

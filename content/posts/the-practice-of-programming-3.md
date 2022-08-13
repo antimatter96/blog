@@ -5,6 +5,10 @@ draft: false
 summary: "Summary of The Practice Of Programming. Part 3 : Design & Implementation and Interfaces"
 truncated: true
 backtotop:  true
+description: "Summary of The Practice Of Programming. Part 3 : Design & Implementation and Interfaces"
+weight: 1
+aliases: []
+categories: ["pop"]
 ---
 ---
 

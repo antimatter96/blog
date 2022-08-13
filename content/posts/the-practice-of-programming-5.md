@@ -5,6 +5,10 @@ draft: false
 summary: "Summary of The Practice Of Programming. Part 4 : Testing"
 truncated: true
 backtotop:  true
+description: "Summary of The Practice Of Programming. Part 4 : Testing"
+weight: 1
+aliases: []
+categories: ["pop"]
 ---
 ---
 

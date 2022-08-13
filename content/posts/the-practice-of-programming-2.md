@@ -5,6 +5,10 @@ draft: false
 summary: "Summary of The Practice Of Programming. Part 2 : Algorithms & Data Structures"
 truncated: true
 backtotop:  true
+description: "Summary of The Practice Of Programming. Part 2 : Algorithms & Data Structures"
+weight: 1
+aliases: []
+categories: ["pop"]
 ---
 ---
 
