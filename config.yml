@@ -1,0 +1,131 @@
+baseURL: "https://arpit.space/blog/"
+languageCode: "en-us"
+title: "Arpit Jain"
+
+theme: "PaperMod"
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+publishDir: "docs"
+
+DefaultContentLanguage: "en"
+enableInlineShortcodes: true
+footnoteReturnLinkContents: "^"
+
+googleAnalytics: UA-123-45
+
+Author:
+  name: "Arpit Jain"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Arpit Jain
+  description: "Arpit Jain;s blog"
+  keywords: [Blog]
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  disableShare: true
+  disableHLJS: false
+  searchHidden: false
+  truncated: false
+  backtotop: true
+
+
+  ShowShareButtons: true
+  ShareButtons:
+    - twitter
+    - linkedin
+    - facebook
+    - reddit
+
+  assets:
+    # disableFingerprinting: true
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "safari-pinned-tab.svg"
+
+  favicon: "favicon.ico"
+
+  label:
+    text: "AJ"
+    iconHeight: 80
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: I am Arpit Jain. Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: linkedin
+      url: "jjj"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "description", "summary", "content"]
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - name: Search 🔎
+      url: search/
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    anchorLineNos: false
+    lineNos: false
+    style: monokai

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Passero";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Passero One"), local("Passero One"),
+    url("../../fonts/passero.ttf") format("truetype"); /* Super Modern Browsers */
+}
+
+body {
+  font-family: "JetBrains Mono";
+}
+
+nav.nav {
+  padding: 0.7em 0 0 0.7em;
+}
+.logo a {
+  font-family: "Passero";
+  font-size: 3.5em;
+}
+
+.first-entry {
+  min-height: 150px;
+  margin-bottom: 24px;
+  border-bottom: 4px solid rgb(238, 238, 238);
+}
+
+.entry-header h2 {
+  font-weight: 900;
+}
+
+.entry-content {
+  font-size: 15px;
+}
+
+.entry-footer {
+  font-size: 14px;
+}

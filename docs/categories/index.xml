@@ -1,1 +1,14 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Arpit Jain</title><link>https://arpit.space/blog/categories/</link><description>Recent content in Categories</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>Page(/categories) (Arpit Jain)</managingEditor><atom:link href="/blog/categories/" rel="self" type="application/rss+xml"/><item><title>The PoP : Part 5 - Testing</title><link>https://arpit.space/blog/post/the-practice-of-programming-5/</link><pubDate>Sun, 12 Jul 2020 03:11:33 +0530</pubDate><guid>https://arpit.space/blog/post/the-practice-of-programming-5/</guid><description>Summary of The Practice Of Programming. Part 4 : Testing</description></item><item><title>The PoP : Part 4 - Debugging</title><link>https://arpit.space/blog/post/the-practice-of-programming-4/</link><pubDate>Sat, 11 Jul 2020 03:11:33 +0530</pubDate><guid>https://arpit.space/blog/post/the-practice-of-programming-4/</guid><description>Summary of The Practice Of Programming. Part 4 : Debugging</description></item><item><title>The PoP : Part 3 - Design &amp; Implementation and Interfaces</title><link>https://arpit.space/blog/post/the-practice-of-programming-3/</link><pubDate>Fri, 10 Jul 2020 03:11:33 +0530</pubDate><guid>https://arpit.space/blog/post/the-practice-of-programming-3/</guid><description>Summary of The Practice Of Programming. Part 3 : Design &amp;amp; Implementation and Interfaces</description></item><item><title>The PoP : Part 2 - Algorithms &amp; Data Structures</title><link>https://arpit.space/blog/post/the-practice-of-programming-2/</link><pubDate>Thu, 09 Jul 2020 03:11:33 +0530</pubDate><guid>https://arpit.space/blog/post/the-practice-of-programming-2/</guid><description>Summary of The Practice Of Programming. Part 2 : Algorithms &amp;amp; Data Structures</description></item><item><title>The Practice Of Programming : Part 1 - Style</title><link>https://arpit.space/blog/post/the-practice-of-programming-1/</link><pubDate>Wed, 01 Jul 2020 03:11:33 +0530</pubDate><guid>https://arpit.space/blog/post/the-practice-of-programming-1/</guid><description>Summary of The Practice Of Programming. Part 1 : Style</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Arpit Jain</title>
+    <link>https://arpit.space/blog/categories/</link>
+    <description>Recent content in Categories on Arpit Jain</description>
+    <image>
+      <url>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://arpit.space/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
