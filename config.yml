@@ -56,7 +56,6 @@ params:
   truncated: false
   backtotop: true
 
-
   ShowShareButtons: true
   ShareButtons:
     - twitter
@@ -109,16 +108,19 @@ menu:
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
+      weight: 20
     - name: Search 🔎
       url: search/
+      weight: 20
+    - name: About Me
+      url: ../
       weight: 10
 
 outputs:
   home:
     - HTML
     - RSS
-    - JSON # is necessary
+    - JSON
 
 pygmentsUseClasses: true
 markup:
