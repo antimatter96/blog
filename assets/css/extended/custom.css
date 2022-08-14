@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "JetBrains Mono";
+  font-family: "JetBrains Mono", "Fira Code", "Monaco", "Courier", monospace;
 }
 
 nav.nav {
@@ -45,12 +45,11 @@ nav.nav {
 .paginav,
 .paginav a {
   border-radius: 0px;
-
 }
 
 .paginav a {
   font-size: 16px;
-  padding-block-end:  14px;
+  padding-block-end: 14px;
   padding-block-start: 14px;
 }
 
