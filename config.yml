@@ -64,7 +64,7 @@ params:
     - reddit
 
   assets:
-    # disableFingerprinting: true
+    disableFingerprinting: true
     favicon: "favicon.ico"
     favicon16x16: "favicon-16x16.png"
     favicon32x32: "favicon-32x32.png"
@@ -88,9 +88,9 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/mearpitjain/"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
 
   # for search
   # https://fusejs.io/api/options.html
