@@ -19,21 +19,23 @@ tags:
 ---
 ## Algorithms & Data Structures
 
-### There are several steps to choosing an algorithm
 
-First, assess potential algorithms and data structures.
+**There are several steps to choosing an algorithm**
+
+1. First, assess potential algorithms and data structures.
 
 Consider how much data the program is likely to process.
 
-If the problem involves modest amounts of data, choose simple techniques.
-If the data could grow, eliminate designs that will not scale up to large inputs.
+- If the problem involves modest amounts of data, choose simple techniques.
 
-Then, use a library or language feature if you can.
+- If the data could grow, eliminate designs that will not scale up to large inputs.
 
-Failing that, write or borrow a short, simple, easy to understand implementation
+2. Then, use a library or language feature if you can.
 
-Try it.
+3. Failing that, write or borrow a short, simple, easy to understand implementation.
 
-If measurements prove it to be too slow, only then should you upgrade to a more advanced technique.
+4. Try it.
+
+5. If measurements prove it to be too slow, only then should you upgrade to a more advanced technique.
 
 ---
