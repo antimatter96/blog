@@ -3,16 +3,24 @@
   font-style: normal;
   font-weight: 400;
   src: local("Passero One"), local("Passero One"),
-    url("../../fonts/passero.ttf") format("truetype"); /* Super Modern Browsers */
+    url("../../fonts/passero.ttf") format("truetype");
+  /* Super Modern Browsers */
+}
+
+:root {
+  --contentFont: "JetBrains Mono", "Fira Code", "Monaco", "Courier", monospace;
+  --headerFont: "IBM Plex", "Work Sans", sans-serif;
+  --radius: 0px;
 }
 
 body {
-  font-family: "JetBrains Mono", "Fira Code", "Monaco", "Courier", monospace;
+  font-family: var(--contentFont)
 }
 
 nav.nav {
   padding: 0.7em 0 0 0.7em;
 }
+
 .logo a {
   font-family: "Passero";
   font-size: 3.5em;
@@ -20,12 +28,16 @@ nav.nav {
 
 .first-entry {
   min-height: 150px;
-  margin-bottom: 24px;
-  border-bottom: 4px solid rgb(238, 238, 238);
+  margin-bottom: var(--gap);
+
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border);
 }
 
 .entry-header h2 {
-  font-weight: 900;
+  font-weight: 800;
+  font-family: var(--headerFont);
 }
 
 .entry-content {
@@ -40,20 +52,57 @@ nav.nav {
   border-radius: 0px;
 }
 
-.post-tags a,
-.share-buttons,
-.paginav,
-.paginav a {
+
+/**/
+
+#searchbox input,
+#searchResults li {
   border-radius: 0px;
 }
 
-.paginav a {
+/**/
+
+.post-title {
+  font-family: var(--headerFont);
+}
+
+.post-footer>.post-tags a,
+.post-footer>.share-buttons,
+.post-footer>.paginav,
+.post-footer>.paginav a {
+  background: var(--theme);
+}
+
+.post-footer>.paginav a {
   font-size: 16px;
   padding-block-end: 14px;
   padding-block-start: 14px;
 }
 
-#searchbox input,
-#searchResults li {
-  border-radius: 0px;
+.post-content hr:last-child {
+  margin: 32px 0px 16px 0px;
+  overflow: visible;
+}
+
+.post-content hr:last-child::after {
+  content: "fin";
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  left: 50%;
+  font-size: 12px;
+  padding: 0 6px;
+  background: var(--theme);
+  color: var(--tertiary);
+  font-weight: 800;
+}
+
+/**/
+
+.terms-tags a {
+  border-radius: var(--radius);
+}
+
+:root {
+  --gap: 20px;
 }

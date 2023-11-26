@@ -8,9 +8,16 @@ backtotop:  true
 description: "Summary of The Practice Of Programming. Part 1 : Style"
 weight: 1
 aliases: []
-categories: ["pop"]
+categories: 
+- "Book Summaries"
+
+tags:
+- pop
+
 
 ---
+
+
 ---
 
 I recently read the book **The Practice of Programming**
@@ -200,4 +207,4 @@ Once they become automatic, your subconscious
 will take care of many of the details for you, and even the code you produce
 under pressure will be better.
 
-------------------------
+---

@@ -5,13 +5,18 @@ draft: false
 summary: "Summary of The Practice Of Programming. Part 2 : Algorithms & Data Structures"
 truncated: true
 backtotop:  true
-description: "Summary of The Practice Of Programming. Part 2 : Algorithms & Data Structures"
+description: "Part 2 in my summary of The Practice Of Programming"
 weight: 1
 aliases: []
-categories: ["pop"]
----
+categories: 
+- "Book Summaries"
+
+tags:
+- pop
 ---
 
+
+---
 ## Algorithms & Data Structures
 
 ### There are several steps to choosing an algorithm
@@ -31,4 +36,4 @@ Try it.
 
 If measurements prove it to be too slow, only then should you upgrade to a more advanced technique.
 
----;
+---

@@ -1,8 +1,12 @@
 baseURL: "https://arpit.space/blog/"
 languageCode: "en-us"
-title: "Arpit Jain"
+
+title: "Arpit Jain's blog"
 
 theme: "PaperMod"
+Author:
+  name: "Arpit Jain"
+
 paginate: 10
 
 enableRobotsTXT: true
@@ -18,12 +22,31 @@ footnoteReturnLinkContents: "^"
 
 googleAnalytics: UA-123-45
 
-Author:
-  name: "Arpit Jain"
+
 
 minify:
   disableXML: true
   minifyOutput: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - name: Search 🔎
+      url: search/
+      weight: 20
+    - name: About Me
+      url: ../
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -77,10 +100,9 @@ params:
     text: "AJ"
     iconHeight: 80
 
-  # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: I am Arpit Jain. Welcome to my blog
+    Content: I am **Arpit Jain**. Welcome to my blog
 
   socialIcons:
     - name: github
@@ -103,24 +125,6 @@ params:
     minMatchCharLength: 0
     keys: ["title", "description", "summary", "content"]
 
-menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 20
-    - name: Search 🔎
-      url: search/
-      weight: 20
-    - name: About Me
-      url: ../
-      weight: 10
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
 
 pygmentsUseClasses: true
 markup:

@@ -8,8 +8,15 @@ backtotop:  true
 description: "Summary of The Practice Of Programming. Part 3 : Design & Implementation and Interfaces"
 weight: 1
 aliases: []
-categories: ["pop"]
+categories: 
+- "Book Summaries"
+
+tags:
+- pop
+
 ---
+
+
 ---
 
 ## Design & Implementation
@@ -90,4 +97,4 @@ The text of error messages, prompts, and dialog boxes should state the form of
 valid input.
 Don't say that a parameter is too large; report the valid range of values.
 
----;
+---

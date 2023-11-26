@@ -2,14 +2,20 @@
 title: "The PoP : Part 5 - Testing"
 date: 2020-07-12T03:11:33+05:30
 draft: false
-summary: "Summary of The Practice Of Programming. Part 4 : Testing"
+summary: "Summary of The Practice Of Programming. Part 5 : Testing"
 truncated: true
 backtotop:  true
-description: "Summary of The Practice Of Programming. Part 4 : Testing"
+description: "Summary of The Practice Of Programming. Part 5  : Testing"
 weight: 1
 aliases: []
-categories: ["pop"]
+categories: 
+- "Book Summaries"
+tags:
+- pop
+
 ---
+
+
 ---
 
 ## Testing
@@ -48,4 +54,4 @@ Test Automation
 
 Automate regression testing.
 
----;
+---

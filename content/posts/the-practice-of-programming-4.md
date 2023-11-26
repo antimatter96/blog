@@ -8,8 +8,15 @@ backtotop:  true
 description: "Summary of The Practice Of Programming. Part 4 : Debugging"
 weight: 1
 aliases: []
-categories: ["pop"]
+categories: 
+- "Book Summaries"
+
+tags:
+- pop
+
 ---
+
+
 ---
 
 ## Debugging
@@ -97,4 +104,4 @@ than columns of numbers. A histogram of data reveals anomalies in
 
 Keep records
 
----;
+---
