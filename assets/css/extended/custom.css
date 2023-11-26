@@ -84,7 +84,7 @@ nav.nav {
   overflow: visible;
 }
 
-.post-content hr:last-child::after {
+.post-content hr:last-child::after, .post-content hr:last-child:after {
   content: "fin";
   display: inline-block;
   position: relative;
@@ -100,7 +100,7 @@ nav.nav {
 /**/
 
 .terms-tags a {
-  border-radius: var(--radius);
+  border-radius: 0px;
 }
 
 :root {
