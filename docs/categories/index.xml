@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Arpit Jain</title>
+    <title>Categories on Arpit Jain&#39;s blog</title>
     <link>https://arpit.space/blog/categories/</link>
-    <description>Recent content in Categories on Arpit Jain</description>
+    <description>Recent content in Categories on Arpit Jain&#39;s blog</description>
     <image>
-      <title>Arpit Jain</title>
+      <title>Arpit Jain&#39;s blog</title>
       <url>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
@@ -13,12 +13,21 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Jul 2020 03:11:33 +0530</lastBuildDate><atom:link href="https://arpit.space/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>pop</title>
-      <link>https://arpit.space/blog/categories/pop/</link>
+      <title>Book Summaries</title>
+      <link>https://arpit.space/blog/categories/book-summaries/</link>
       <pubDate>Sun, 12 Jul 2020 03:11:33 +0530</pubDate>
       
-      <guid>https://arpit.space/blog/categories/pop/</guid>
-      <description></description>
+      <guid>https://arpit.space/blog/categories/book-summaries/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Today?? I Learned</title>
+      <link>https://arpit.space/blog/categories/tils/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arpit.space/blog/categories/tils/</guid>
+      <description> </description>
     </item>
     
   </channel>

@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Arpit Jain</title>
+    <title>Tags on Arpit Jain&#39;s blog</title>
     <link>https://arpit.space/blog/tags/</link>
-    <description>Recent content in Tags on Arpit Jain</description>
+    <description>Recent content in Tags on Arpit Jain&#39;s blog</description>
     <image>
-      <title>Arpit Jain</title>
+      <title>Arpit Jain&#39;s blog</title>
       <url>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://arpit.space/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jul 2020 03:11:33 +0530</lastBuildDate><atom:link href="https://arpit.space/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pop</title>
+      <link>https://arpit.space/blog/tags/pop/</link>
+      <pubDate>Sun, 12 Jul 2020 03:11:33 +0530</pubDate>
+      
+      <guid>https://arpit.space/blog/tags/pop/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

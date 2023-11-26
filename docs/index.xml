@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Arpit Jain</title>
+    <title>Arpit Jain&#39;s blog</title>
     <link>https://arpit.space/blog/</link>
-    <description>Recent content on Arpit Jain</description>
+    <description>Recent content on Arpit Jain&#39;s blog</description>
     <image>
-      <title>Arpit Jain</title>
+      <title>Arpit Jain&#39;s blog</title>
       <url>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 12 Jul 2020 03:11:33 +0530</pubDate>
       
       <guid>https://arpit.space/blog/posts/the-practice-of-programming-5/</guid>
-      <description>Summary of The Practice Of Programming. Part 4 : Testing</description>
+      <description>Summary of The Practice Of Programming. Part 5  : Testing</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Thu, 09 Jul 2020 03:11:33 +0530</pubDate>
       
       <guid>https://arpit.space/blog/posts/the-practice-of-programming-2/</guid>
-      <description>Summary of The Practice Of Programming. Part 2 : Algorithms &amp;amp; Data Structures</description>
+      <description>Part 2 in my summary of The Practice Of Programming</description>
     </item>
     
     <item>
