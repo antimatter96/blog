@@ -11,8 +11,13 @@
             "id": "a1b5ddc7298a3703",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "posts/software-architecture-in-practice-1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -90,7 +95,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "04e335b74988c097",
+  "active": "a1b5ddc7298a3703",
   "lastOpenFiles": [
     "posts/software-architecture-in-practice-1.md",
     "drafts/Book.md",

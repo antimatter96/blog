@@ -10,6 +10,17 @@
   "ignoreCreatedFolder": [],
   "enableExperimentalHash": false,
   "fileHashMap": {
-
+    "search.md": "d60500089b4a33135e7625f8dc364d718ec01ae19bc81eb08d3d5e77662bfba6",
+    "posts/the-practice-of-programming-5.md": "a7e162a2be08128702949d45e4f98c68e3b64908f573d686d53f119ec5a2c8a4",
+    "posts/the-practice-of-programming-4.md": "048fcc1d0787203bba72438f0dc47ee422184c6731b0cc89ad4e1d625f279496",
+    "posts/the-practice-of-programming-3.md": "4a812e7cc3dc6a56553f431eb340eeffdef5d5ff2c24d00981c48cf1ac38c6c1",
+    "posts/the-practice-of-programming-2.md": "84854e19e6c88272924ea5aed5857819b2f68209d1fd1b4a703565e52b9f058e",
+    "posts/the-practice-of-programming-1.md": "286b5a4c4f39f80731c19e459e3ffe23e8beb08cf682102a543f5a8a78c044db",
+    "posts/software-architecture-in-practice-1.md": "66f9df45e8b88e90d63762f5d84c0cc3d513be1b710b59366f6b9aeda6617250",
+    "categories/tils/_index.md": "2f1a0691988b4dca34954923a8fdd21d7f7a2267632f3874419123b68a5d427f",
+    "categories/on-the-job/_index.md": "16f1ea7440e05becdf7b633910ebccaa439036659fe01327358d030929c0e7e7",
+    "categories/book-summaries/_index.md": "a8df30448d205f935eb9577d4d82e9fcd137122bff1ac4573ad94e1e4973b845",
+    "about.md": "61cfbe61068213a5610378475a5b5885c007be4871c36d0aa1d90b310c504f76",
+    "posts/Untitled.md": "07a2497295f5d10211bc54da47b7f8fde8f1c51ca78afc8931a0290a93f9a167"
   }
 }
