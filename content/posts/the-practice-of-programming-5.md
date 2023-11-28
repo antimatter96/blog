@@ -3,16 +3,14 @@ title: "The PoP : Part 5 - Testing"
 date: 2020-07-12T03:11:33+05:30
 draft: false
 summary: "Summary of The Practice Of Programming. Part 5 : Testing"
-truncated: true
-backtotop:  true
 description: "Summary of The Practice Of Programming. Part 5  : Testing"
 weight: 1
 aliases: []
-categories: 
-- "Book Summaries"
+categories:
+  - Book Summaries
 tags:
-- pop
-
+  - pop
+updated: 2023-11-29T01:28
 ---
 
 
@@ -36,7 +34,7 @@ Situations where it is not logically possible for something to happen but (becau
 
 ### Check error returns
 
-** Never throw away a test ** : It can help you decide whether a bug report is valid or describes something already fixed.
+**Never throw away a test** : It can help you decide whether a bug report is valid or describes something already fixed.
 
 Keep a record of bugs, changes, and fixes; it will help you identify old problems and fix new ones
 

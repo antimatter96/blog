@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "da6c55532fb373a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fdc62469ff2f22e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1b5ddc7298a3703",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b39e806fa763144",
+    "type": "split",
+    "children": [
+      {
+        "id": "179dd06b006dc557",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04e335b74988c097",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "50aee672bc5fef80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "96e73dc9015df017",
+    "type": "split",
+    "children": [
+      {
+        "id": "dff2804224a8ef16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "024d27121747f021",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templates:Insert template": false
+    }
+  },
+  "active": "04e335b74988c097",
+  "lastOpenFiles": [
+    "posts/software-architecture-in-practice-1.md",
+    "drafts/Book.md",
+    "posts/Untitled.md",
+    "posts/the-practice-of-programming-1.md",
+    "search.md",
+    "categories/tils/_index.md",
+    "drafts/draft.md",
+    "drafts/draft.template",
+    "categories/on-the-job/_index.md",
+    "categories/book-summaries/_index.md",
+    "posts/the-practice-of-programming-5.md",
+    "drafts",
+    "draft.md",
+    "about.md"
+  ]
+}

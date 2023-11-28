@@ -22,6 +22,11 @@ footnoteReturnLinkContents: "^"
 
 googleAnalytics: UA-123-45
 
+module:
+  mounts:
+  - excludeFiles: drafts/*
+    source: content
+    target: content
 
 
 minify:
@@ -49,9 +54,9 @@ outputs:
 
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   title: Arpit Jain
-  description: "Arpit Jain;s blog"
+  description: "Arpit Jain's blog"
   keywords: [Blog]
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -71,7 +76,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
   disableShare: true
   disableHLJS: false
@@ -122,7 +127,7 @@ params:
     location: 0
     distance: 1000
     threshold: 0.4
-    minMatchCharLength: 0
+    minMatchCharLength: 1
     keys: ["title", "description", "summary", "content"]
 
 

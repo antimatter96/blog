@@ -3,17 +3,14 @@ title: "The PoP : Part 4 - Debugging"
 date: 2020-07-11T03:11:33+05:30
 draft: false
 summary: "Summary of The Practice Of Programming. Part 4 : Debugging"
-truncated: true
-backtotop:  true
 description: "Summary of The Practice Of Programming. Part 4 : Debugging"
 weight: 1
 aliases: []
-categories: 
-- "Book Summaries"
-
+categories:
+  - Book Summaries
 tags:
-- pop
-
+  - pop
+updated: 2023-11-27T02:30
 ---
 
 

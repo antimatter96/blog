@@ -3,17 +3,14 @@ title: "The PoP : Part 3 - Design & Implementation and Interfaces"
 date: 2020-07-10T03:11:33+05:30
 draft: false
 summary: "Summary of The Practice Of Programming. Part 3 : Design & Implementation and Interfaces"
-truncated: true
-backtotop:  true
 description: "Summary of The Practice Of Programming. Part 3 : Design & Implementation and Interfaces"
 weight: 1
 aliases: []
-categories: 
-- "Book Summaries"
-
+categories:
+  - Book Summaries
 tags:
-- pop
-
+  - pop
+updated: 2023-11-27T02:30
 ---
 
 

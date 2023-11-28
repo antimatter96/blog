@@ -1,0 +1,15 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mmxxx",
+  "enableCreateTime": true,
+  "headerUpdated": "updated",
+  "headerCreated": "date",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [
+    "drafts"
+  ],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+
+  }
+}

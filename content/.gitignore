@@ -1,0 +1,7 @@
+.obsidian/icons/
+
+.obsidian/plugins/*/**.js
+.obsidian/plugins/*/**.json
+.obsidian/plugins/*/**.css
+!.obsidian/plugins/*/data.json
+.obsidian/plugins/obsidian-icon-folder/data.json

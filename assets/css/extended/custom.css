@@ -79,23 +79,48 @@ nav.nav {
   padding-block-start: 14px;
 }
 
+/**/
+
+.post-content hr:first-child,
 .post-content hr:last-child {
-  margin: 32px 0px 16px 0px;
   overflow: visible;
 }
 
-.post-content hr:last-child::after, .post-content hr:last-child:after {
-  content: "fin";
+.post-content hr:first-child {
+  margin: 16px 0px 32px 0px;
+}
+
+.post-content hr:last-child {
+  margin: 32px 0px 16px 0px;
+}
+
+.post-content hr:first-child::after,
+.post-content hr:first-child:after,
+.post-content hr:last-child::after,
+.post-content hr:last-child:after {
   display: inline-block;
   position: relative;
   top: -16px;
   left: 50%;
-  font-size: 12px;
+  font-size: 16px;
   padding: 0 6px;
   background: var(--theme);
   color: var(--tertiary);
-  font-weight: 800;
 }
+
+.post-content hr:first-child::after,
+.post-content hr:first-child:after {
+  content: ".....";
+}
+
+
+.post-content hr:last-child::after,
+.post-content hr:last-child:after {
+  content: "fin";
+  font-weight: 800;
+  font-style: italic;
+}
+
 
 /**/
 

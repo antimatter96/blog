@@ -3,16 +3,14 @@ title: "The PoP : Part 2 - Algorithms & Data Structures"
 date: 2020-07-09T03:11:33+05:30
 draft: false
 summary: "Summary of The Practice Of Programming. Part 2 : Algorithms & Data Structures"
-truncated: true
-backtotop:  true
-description: "Part 2 in my summary of The Practice Of Programming"
+description: Part 2 in my summary of The Practice Of Programming
 weight: 1
 aliases: []
-categories: 
-- "Book Summaries"
-
+categories:
+  - Book Summaries
 tags:
-- pop
+  - pop
+updated: 2023-11-27T02:30
 ---
 
 

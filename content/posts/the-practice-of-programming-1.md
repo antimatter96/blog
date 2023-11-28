@@ -3,18 +3,14 @@ title: "The Practice Of Programming : Part 1 - Style"
 date: 2020-07-01T03:11:33+05:30
 draft: false
 summary: "Summary of The Practice Of Programming. Part 1 : Style"
-truncated: false
-backtotop:  true
 description: "Summary of The Practice Of Programming. Part 1 : Style"
 weight: 1
 aliases: []
-categories: 
-- "Book Summaries"
-
+categories:
+  - Book Summaries
 tags:
-- pop
-
-
+  - pop
+updated: 2023-11-27T02:30
 ---
 
 
