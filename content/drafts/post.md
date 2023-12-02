@@ -3,7 +3,7 @@ title: "{{ title }}"
 date: {{ Date }}
 draft: true
 description: ""
-summary: {{ replace .Name "-" " " | title }}
+summary: 
 weight: 1
 aliases: []
 categories: []
