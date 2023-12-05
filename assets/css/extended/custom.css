@@ -11,6 +11,7 @@
   --contentFont: "JetBrains Mono", "Fira Code", "Monaco", "Courier", monospace;
   --headerFont: "IBM Plex", "Work Sans", sans-serif;
   --radius: 0px;
+  --main-width: 720px;
 }
 
 body {
@@ -130,4 +131,13 @@ nav.nav {
 
 :root {
   --gap: 20px;
+}
+
+/**/
+
+.post-content code {
+  font-size: .85em;
+  line-height: 1.5;
+  background: var(--code-bg);
+  border-radius: 20px;
 }

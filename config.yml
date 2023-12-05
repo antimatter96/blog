@@ -79,7 +79,7 @@ params:
   showtoc: true
   tocopen: false
   disableShare: true
-  disableHLJS: false
+  disableHLJS: true
   searchHidden: false
   truncated: false
   backtotop: true
@@ -134,7 +134,7 @@ params:
 pygmentsUseClasses: true
 markup:
   highlight:
-    noClasses: false
+    noClasses: true
     codeFences: true
     guessSyntax: true
     anchorLineNos: false
