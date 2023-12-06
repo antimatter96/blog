@@ -139,4 +139,15 @@ markup:
     guessSyntax: true
     anchorLineNos: false
     lineNos: false
-    style: monokai
+    style: perldoc
+
+# markup:
+#   highlight:
+#     anchorLineNos: false
+#     codeFences: true
+#     guessSyntax: false
+#     hl_Lines: ""
+#     hl_inline: false
+#     noClasses: true
+#     noHl: false
+#     style: monokai

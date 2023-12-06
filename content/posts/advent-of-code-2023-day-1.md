@@ -3,7 +3,7 @@ title: AOC'23 - Day 1
 date: 2023-12-02T06:42:00+08:00
 updated: 2023-12-05T07:26:00+08:00
 draft: false
-description: Solutions to description
+description: ""
 summary: Advent Of Code 2023, Day 1 solutions
 weight: 1
 aliases: 
