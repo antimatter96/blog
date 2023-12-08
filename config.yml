@@ -107,7 +107,7 @@ params:
 
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: I am **Arpit Jain**. Welcome to my blog
+    Content: "I am **Arpit Jain**\n\n `Welcome to my blog`"
 
   socialIcons:
     - name: github
@@ -140,14 +140,3 @@ markup:
     anchorLineNos: false
     lineNos: false
     style: perldoc
-
-# markup:
-#   highlight:
-#     anchorLineNos: false
-#     codeFences: true
-#     guessSyntax: false
-#     hl_Lines: ""
-#     hl_inline: false
-#     noClasses: true
-#     noHl: false
-#     style: monokai
