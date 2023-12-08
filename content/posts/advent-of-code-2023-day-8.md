@@ -1,10 +1,10 @@
 ---
-title: AOC'23 - Day 5
-date: 2023-12-06T06:42:00+08:00
-updated: 2023-12-06T07:26:00+08:00
+title: AOC'23 - Day 8
+date: 2023-12-08T20:42:00+08:00
+updated: 2023-12-08T21:26:00+08:00
 draft: true
 description: ""
-summary: Advent Of Code 2023, Day 5 solutions
+summary: Advent Of Code 2023, Day 8 solutions
 weight: 1
 aliases: 
 categories:
