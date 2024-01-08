@@ -163,6 +163,14 @@ nav.nav {
 }
 
 
+.post-content code {
+  background: var(--transparentBgActive);
+  border-radius: 0px;
+  margin: auto 1px;
+  padding: 4px 4px;
+  font-size: inherit;
+}
+
 .paginav {
   font-weight: 700;
 }
@@ -198,13 +206,6 @@ nav.nav {
 
 
 /**/
-
-.post-content code {
-  font-size: .85em;
-  line-height: 1.5;
-  background: var(--code-bg);
-  border-radius: 20px;
-}
 
 /**/
 
