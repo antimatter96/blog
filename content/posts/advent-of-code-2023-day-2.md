@@ -1,7 +1,7 @@
 ---
 title: AOC'23 - Day 2
 date: 2023-12-03T02:42:00+08:00
-updated: 2024-01-08T15:43+08:00
+updated: 2024-01-08T15:49+08:00
 draft: false
 description: ""
 summary: Advent Of Code 2023, Day 2 solutions
@@ -37,9 +37,11 @@ For each line:
 1. Scan `Id`
 2. Split by `:`, discard first half
 3. Split by `;`, we get subsets
-	1. Split by `,` we get colors and counts
-	2. Trim space
-	3. Scan `color`, `count`
+	1. Create map
+	2. Split by `,` we get colors and counts
+	3. Trim space
+	4. Scan `color`, `count`
+	5. Update our map
 
 
 ### Part 1
