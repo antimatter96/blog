@@ -1,7 +1,7 @@
 ---
 title: AOC'23 - Day 2
 date: 2023-12-03T02:42:00+08:00
-updated: 2024-01-08T15:49+08:00
+updated: 2024-01-09T13:10+08:00
 draft: false
 description: ""
 summary: Advent Of Code 2023, Day 2 solutions
@@ -14,7 +14,7 @@ tags:
 showtoc: false
 ---
 ---
-### Data Structures
+## Data Structures
 
 Every `game` has an `id` and many `[]` (sub)`sets`
 
@@ -27,7 +27,10 @@ Will have to handle each color
 
 Don't know if there are more colors in bag
 
-### Parsing
+
+---
+
+## Parsing
 
 ```
 Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
@@ -44,7 +47,9 @@ For each line:
 	5. Update our map
 
 
-### Part 1
+---
+
+## Part 1
 
 Check all subsets of each game
 
@@ -73,7 +78,7 @@ Got to use loop labels
 
 ---
 
-### Part 2
+## Part 2
 
 Check all subsets of each game
 

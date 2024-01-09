@@ -1,7 +1,7 @@
 ---
 title: AOC'23 - Day 1
 date: 2023-12-02T06:42:00+08:00
-updated: 2024-01-08T15:04+08:00
+updated: 2024-01-09T13:10+08:00
 draft: false
 description: ""
 summary: Advent Of Code 2023, Day 1 solutions
@@ -13,15 +13,15 @@ tags:
   - aoc2023
 showtoc: false
 ---
-### Data Structures
+## Data Structures
 
 N/A
 
-### Parsing
+## Parsing
 
 Nothing special, forward as is
 
-### Part 1
+## Part 1
 
 Extract a number from each line, alphabets are useless
 
@@ -58,7 +58,7 @@ But did not want to deal with reversing the string to get the last digit
 
 ---
 
-### Part 2
+## Part 2
 
 Extract a number from each line, alphabets can be numbers spelled out
 
