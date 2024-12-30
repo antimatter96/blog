@@ -9,7 +9,9 @@
       <url>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://arpit.space/blog/categories/tils/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://arpit.space/blog/categories/tils/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -9,26 +9,23 @@
       <url>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://arpit.space/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Dec 2023 02:42:00 +0800</lastBuildDate><atom:link href="https://arpit.space/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 02:42:00 +0800</lastBuildDate>
+    <atom:link href="https://arpit.space/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>aoc2023</title>
+      <title>Aoc2023</title>
       <link>https://arpit.space/blog/tags/aoc2023/</link>
       <pubDate>Sun, 03 Dec 2023 02:42:00 +0800</pubDate>
-      
       <guid>https://arpit.space/blog/tags/aoc2023/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>The Practice of Programming</title>
       <link>https://arpit.space/blog/tags/pop/</link>
-      <pubDate>Sun, 12 Jul 2020 03:11:33 +0530</pubDate>
-      
+      <pubDate>Mon, 27 Nov 2023 01:07:00 +0530</pubDate>
       <guid>https://arpit.space/blog/tags/pop/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

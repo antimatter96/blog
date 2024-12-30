@@ -6,7 +6,9 @@ title: "Arpit Jain's blog"
 theme: "PaperMod"
 
 
-paginate: 10
+
+pagination:
+  pagerSize: 10
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -55,8 +57,7 @@ outputs:
 params:
   env: production
   title: Arpit Jain
-  Author:
-    name: "Arpit Jain"
+  author: Arpit Jain
   description: "Arpit Jain's blog"
   keywords: [Blog]
   images: ["<link or path of image for opengraph, twitter-cards>"]
