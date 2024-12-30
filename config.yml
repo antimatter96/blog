@@ -4,8 +4,7 @@ languageCode: "en-us"
 title: "Arpit Jain's blog"
 
 theme: "PaperMod"
-Author:
-  name: "Arpit Jain"
+
 
 paginate: 10
 
@@ -56,6 +55,8 @@ outputs:
 params:
   env: production
   title: Arpit Jain
+  Author:
+    name: "Arpit Jain"
   description: "Arpit Jain's blog"
   keywords: [Blog]
   images: ["<link or path of image for opengraph, twitter-cards>"]

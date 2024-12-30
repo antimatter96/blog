@@ -2,7 +2,7 @@
 title: About
 date: 2020-03-11T03:11:33+05:30
 draft: false
-updated: 2023-10-04T02:05
+updated: 2023-10-04T02:05:00+05:30
 ---
 
 Hello
